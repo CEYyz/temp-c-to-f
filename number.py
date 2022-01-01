@@ -1,5 +1,9 @@
 import random
-ans = random.randint(1, 100)
+start = input('pls type start value')
+end = input('pls type end value')
+start = int(start)
+end = int(end)
+ans = random.randint(start, end)
 count = 0
 
 while True:
